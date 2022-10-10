@@ -1,0 +1,26 @@
+.quiz{
+    background-color: #c4c4c4;
+    padding: 30px;
+    border-radius: 10px;
+}
+.quiz div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.quiz div h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+.quiz div span{
+    color: #01779c;
+}
+.quiz a{
+    background-color: #ff9966;
+    padding: 10px 25px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 6px;
+}
