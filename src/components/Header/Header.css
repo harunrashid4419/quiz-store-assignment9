@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #9ecaf0;
+}
+.header .left{
+    display: flex;
+    align-items: center;
+}
+.header .left a{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+}
+.header .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.header .menu a{
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+    font-size: 18px;
+    transition: .5s;
+}
+.header .menu a:hover{
+    color: orangered;
+}
