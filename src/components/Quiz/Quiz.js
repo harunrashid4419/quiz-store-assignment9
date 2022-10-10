@@ -12,7 +12,7 @@ const Quiz = ({ quiz }) => {
                 <h2>Total Quiz: <span>{total}</span></h2>
             </div>
             <div className='button'>
-                <NavLink>See Quiz</NavLink>
+                <NavLink to={`../quiz/${id}`}>See Quiz</NavLink>
             </div>
         </div>
     );
