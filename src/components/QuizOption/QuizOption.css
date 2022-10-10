@@ -1,0 +1,25 @@
+.options{
+    border: 1px solid black;
+    margin: 50px 0;
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.options .question{
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #6d33b4;
+}
+.options .single-option{
+    display: block;
+    background-color: purple;
+    margin: 30px 0;
+    color: white;
+    font-weight: 500;
+    padding: 30px 0;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.options .option{
+    width: 80%;
+    margin: 0 auto;
+}

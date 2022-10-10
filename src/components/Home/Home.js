@@ -5,7 +5,7 @@ import Quizs from '../Quizs/Quizs';
 const Home = () => {
     return (
         <div>
-            <AboutQuiz></AboutQuiz>
+            {/* <AboutQuiz></AboutQuiz> */}
             <Quizs></Quizs>
         </div>
     );

@@ -1,0 +1,13 @@
+.single-quizs{
+    padding: 0 50px;
+    width: 80%;
+    margin: auto;
+}
+.single-quizs .name{
+    font-weight: 700;
+    font-size: 32px;
+    margin: 20px 0;
+}
+.single-quizs .name span{
+    color: #008000;
+}
