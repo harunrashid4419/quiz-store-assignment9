@@ -1,5 +1,24 @@
 .about-quiz{
     padding: 50px;
+    display: flex;
+    text-align: left;
+}
+.about-quiz .content{
+    width: 50%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+}
+.about-quiz .content a{
+    font-size: 20px;
+    background-color: #6d33b4;
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 7px;
+}
+.about-quiz .img{
+    width: 50%;
 }
 .about-quiz h1{
     font-size: 36px;
@@ -8,8 +27,4 @@
 .about-quiz p{
     font-size: 16px;
     margin: 10px 0 30px 0;
-}
-.about-quiz div{
-    max-width: 700px;
-    margin: 0 auto;
 }
