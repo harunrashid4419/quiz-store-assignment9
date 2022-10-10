@@ -1,0 +1,15 @@
+.about-quiz{
+    padding: 50px;
+}
+.about-quiz h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+.about-quiz p{
+    font-size: 16px;
+    margin: 10px 0 30px 0;
+}
+.about-quiz div{
+    max-width: 700px;
+    margin: 0 auto;
+}
