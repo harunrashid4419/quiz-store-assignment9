@@ -28,3 +28,18 @@
     font-size: 16px;
     margin: 10px 0 30px 0;
 }
+
+@media screen and (max-width: 767px) {
+    .about-quiz{
+        display: block;
+    }
+    .about-quiz .content{
+        width: 100%;
+        order: 2;
+        padding: 0 0 40px 0;
+    }
+    .about-quiz .img{
+        width: 100%;
+        order: 1;
+    }
+}

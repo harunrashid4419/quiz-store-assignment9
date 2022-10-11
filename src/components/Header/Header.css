@@ -28,3 +28,14 @@
 .header .menu a:hover{
     color: orangered;
 }
+.activeColor{
+    color: orangered !important;
+}
+@media screen and (max-width: 767px) {
+    .header .menu li{
+        display: block;
+        padding: 5px 0;
+        text-align: right;
+        margin-right: 70px;
+    }
+}

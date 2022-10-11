@@ -1,7 +1,8 @@
-.quiz{
+.quiz {
     background-color: #c4c4c4;
     padding: 30px;
     border-radius: 10px;
+    box-shadow: 0px 5px 7px 1px #000000a1;
 }
 .quiz div{
     display: flex;

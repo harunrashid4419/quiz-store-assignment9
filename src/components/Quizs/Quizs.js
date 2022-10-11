@@ -7,10 +7,14 @@ const Quizs = () => {
     const PreviousQuizs = useLoaderData();
     const quizs = PreviousQuizs.data;
     return (
-        <div className='quizs'>
-            {
-                quizs.map(quiz => <Quiz key={quiz.id} quiz={quiz}></Quiz>)
-            }
+        <div>
+            <h1 className='text-black font-bold text-4xl'>Quiz</h1>
+            <div className="quizs">
+                {
+                    quizs.map(quiz => <Quiz key={quiz.id} quiz={quiz}></Quiz>)
+                }
+            </div>
+
         </div>
     );
 };

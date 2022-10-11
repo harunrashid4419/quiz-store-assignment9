@@ -6,7 +6,7 @@
 }
 .options .question {
     font-size: 32px;
-    margin: 0 45px 40px 0;
+    margin: 0 35px 40px 35px;
     color: #6d33b4;
     width: 90%;
 }
@@ -19,6 +19,9 @@
     padding: 30px 0;
     border-radius: 10px;
     font-size: 18px;
+}
+.option .single-option input{
+    margin-right: 10px;
 }
 .options .option{
     width: 80%;
