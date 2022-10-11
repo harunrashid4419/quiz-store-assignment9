@@ -5,7 +5,6 @@ import './SingleQuiz.css';
 
 const SingleQuiz = () => {
     const previousQuiz = useLoaderData();
-    console.log(previousQuiz)
     const quizs = previousQuiz.data.questions;
     return (
         <div className='single-quizs'>

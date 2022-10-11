@@ -4,10 +4,11 @@
     padding: 20px 10px;
     border-radius: 10px;
 }
-.options .question{
+.options .question {
     font-size: 32px;
-    margin-bottom: 40px;
+    margin: 0 45px 40px 0;
     color: #6d33b4;
+    width: 90%;
 }
 .options .single-option{
     display: block;
@@ -22,4 +23,8 @@
 .options .option{
     width: 80%;
     margin: 0 auto;
+}
+.options .eye-icon{
+    display: flex;
+    cursor: pointer;
 }
