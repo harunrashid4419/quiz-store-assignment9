@@ -11,7 +11,7 @@ const Quizs = () => {
             <h1 className='text-black font-bold text-4xl'>Quiz</h1>
             <div className="quizs">
                 {
-                    quizs.map(quiz => <Quiz key={quiz.id} quiz={quiz}></Quiz>)
+                    quizs.map((quiz) => <Quiz key={quiz.id} quiz={quiz}></Quiz>)
                 }
             </div>
 

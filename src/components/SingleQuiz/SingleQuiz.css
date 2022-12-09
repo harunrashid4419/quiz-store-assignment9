@@ -11,3 +11,9 @@
 .single-quizs .name span{
     color: #008000;
 }
+@media screen and (max-width: 767px) {
+    .single-quizs {
+        padding: 0 30px;
+        width: 100%;
+    }
+}

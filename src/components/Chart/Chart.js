@@ -1,7 +1,7 @@
 import React from 'react';
 import './Chart.css';
 import { useLoaderData } from 'react-router-dom';
-import { Tooltip, LineChart, Line, CartesianGrid, XAxis, YAxis } from 'recharts';
+import { Tooltip, LineChart, Line, CartesianGrid, XAxis, YAxis, ResponsiveContainer } from 'recharts';
 
 
 const Chart = () => {
@@ -9,7 +9,7 @@ const Chart = () => {
     const data = arrayOfData.data;
     return (
         <div>
-            <LineChart className='m-auto chart' width={500} height={400} data={data}>
+            <LineChart className='m-auto chart' width={400} height={300} data={data}>
                 <Line type="monotone" dataKey="total" stroke="#8884d8" />
                 <CartesianGrid stroke="#ccc" />
                 <XAxis dataKey="name" />

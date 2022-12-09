@@ -3,11 +3,12 @@
     margin: 50px 0;
     padding: 20px 10px;
     border-radius: 10px;
+    background-color: gray;
 }
 .options .question {
     font-size: 32px;
     margin: 0 35px 40px 35px;
-    color: #6d33b4;
+    color: orange;
     width: 90%;
 }
 .options .single-option{
@@ -35,4 +36,15 @@
 .options .eye-icon{
     display: flex;
     cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+    .options .option{
+        width: 100%;
+    }
+    .options .question {
+        font-size: 28px;
+        margin: 0 0px 20px 0px;
+        color: #6d33b4;
+        width: 90%;
+    }
 }

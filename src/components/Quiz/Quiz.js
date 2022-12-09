@@ -3,6 +3,7 @@ import './Quiz.css';
 import { NavLink } from 'react-router-dom';
 
 const Quiz = ({ quiz }) => {
+    // console.log(quiz)
     const { id, logo, name, total } = quiz;
     return (
         <div className='quiz'>
